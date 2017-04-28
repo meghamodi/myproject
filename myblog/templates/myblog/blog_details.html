@@ -1,0 +1,9 @@
+<h2>{{ object.title }}</h2>
+<p>{{ object.body }}</p>
+
+<b>Tags:</b>
+    <p>
+    {% for item in object.tags.all %}
+        {{ item }}
+    {% endfor %}
+    </p>

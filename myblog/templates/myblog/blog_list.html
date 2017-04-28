@@ -1,0 +1,6 @@
+<ul>
+    {% for blog in object_list %}
+        <li> {{ blog.title }} <br/>
+        <p> {{ blog.body }} </p>
+    {% endfor %}
+</ul>
